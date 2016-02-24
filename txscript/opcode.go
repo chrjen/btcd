@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/fastsha256"
-	"github.com/btcsuite/golangcrypto/ripemd160"
+	"github.com/chrjen/btcd/btcec"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/fastsha256"
+	"github.com/chrjen/golangcrypto/ripemd160"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc if

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	database "github.com/btcsuite/btcd/database2"
-	"github.com/btcsuite/btclog"
-	flags "github.com/btcsuite/go-flags"
+	database "github.com/chrjen/btcd/database2"
+	"github.com/chrjen/btclog"
+	flags "github.com/chrjen/go-flags"
 )
 
 const (

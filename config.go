@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 The btcsuite developers
+// Copyright (c) 2013-2014 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ldb"
-	_ "github.com/btcsuite/btcd/database/memdb"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	flags "github.com/btcsuite/go-flags"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/chrjen/btcd/database"
+	_ "github.com/chrjen/btcd/database/ldb"
+	_ "github.com/chrjen/btcd/database/memdb"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
+	flags "github.com/chrjen/go-flags"
+	"github.com/chrjen/go-socks/socks"
 )
 
 const (

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/chrjen/btcd/btcec"
+	"github.com/chrjen/btcd/chaincfg"
+	"github.com/chrjen/btcd/txscript"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
 )
 
 type addressToKey struct {

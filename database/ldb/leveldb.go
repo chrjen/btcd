@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/chrjen/btcd/database"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btclog"
+	"github.com/chrjen/btcutil"
+	"github.com/chrjen/goleveldb/leveldb"
+	"github.com/chrjen/goleveldb/leveldb/opt"
 )
 
 const (

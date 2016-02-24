@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,17 +14,17 @@ import (
 	"sort"
 	"sync"
 
-	database "github.com/btcsuite/btcd/database2"
-	"github.com/btcsuite/btcd/database2/internal/treap"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	database "github.com/chrjen/btcd/database2"
+	"github.com/chrjen/btcd/database2/internal/treap"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
+	"github.com/chrjen/goleveldb/leveldb"
+	"github.com/chrjen/goleveldb/leveldb/comparer"
+	ldberrors "github.com/chrjen/goleveldb/leveldb/errors"
+	"github.com/chrjen/goleveldb/leveldb/filter"
+	"github.com/chrjen/goleveldb/leveldb/iterator"
+	"github.com/chrjen/goleveldb/leveldb/opt"
+	"github.com/chrjen/goleveldb/leveldb/util"
 )
 
 const (

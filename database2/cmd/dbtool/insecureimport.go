@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	database "github.com/btcsuite/btcd/database2"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	database "github.com/chrjen/btcd/database2"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
 )
 
 // importCmd defines the configuration options for the insecureimport command.

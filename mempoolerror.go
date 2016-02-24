@@ -1,12 +1,12 @@
-// Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2014 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package main
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/chrjen/btcd/blockchain"
+	"github.com/chrjen/btcd/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

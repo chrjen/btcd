@@ -1,4 +1,4 @@
-// Copyright (c) 2015 The btcsuite developers
+// Copyright (c) 2015 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/chrjen/btcd/chaincfg"
+	"github.com/chrjen/btcd/peer"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

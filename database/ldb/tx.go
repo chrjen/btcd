@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 The btcsuite developers
+// Copyright (c) 2013-2014 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,13 +9,13 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/golangcrypto/ripemd160"
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/chrjen/btcd/database"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
+	"github.com/chrjen/golangcrypto/ripemd160"
+	"github.com/chrjen/goleveldb/leveldb"
+	"github.com/chrjen/goleveldb/leveldb/iterator"
+	"github.com/chrjen/goleveldb/leveldb/util"
 )
 
 const (

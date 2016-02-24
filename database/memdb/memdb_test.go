@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 The btcsuite developers
+// Copyright (c) 2013-2014 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/memdb"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/chrjen/btcd/chaincfg"
+	"github.com/chrjen/btcd/database"
+	"github.com/chrjen/btcd/database/memdb"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btcutil"
 )
 
 // TestClosed ensure calling the interface functions on a closed database

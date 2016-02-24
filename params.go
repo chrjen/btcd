@@ -1,12 +1,12 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package main
 
 import (
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/chrjen/btcd/chaincfg"
+	"github.com/chrjen/btcd/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

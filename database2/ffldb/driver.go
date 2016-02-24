@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The chrjen developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,9 +7,9 @@ package ffldb
 import (
 	"fmt"
 
-	database "github.com/btcsuite/btcd/database2"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btclog"
+	database "github.com/chrjen/btcd/database2"
+	"github.com/chrjen/btcd/wire"
+	"github.com/chrjen/btclog"
 )
 
 var log = btclog.Disabled
